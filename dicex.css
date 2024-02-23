@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.wrapper {
+    height: 100vh;
+    background-color: rgb(245, 4, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.first {
+    position: relative;
+    width: 50%;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+}
+
+.player1 {
+    width: 50%;
+    background-color: rgb(199, 156, 156);
+
+}
+
+
+
+
+
+
+.content1 {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.curent1 {
+    text-transform: capitalize;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1 h3 {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    text-transform: capitalize;
+}
+
+#score1 {
+    font-size: 2.5rem;
+    color: rgb(230, 22, 119);
+}
+
+.inner1 {
+    text-transform: capitalize;
+    height: 50%;
+    width: 50%;
+    border-radius: 6px;
+    background-color: rgb(207, 9, 68);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2rem;
+}
+
+.inner1 p {
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+#current-score1 {
+
+    font-size: 1.5rem;
+    color: white;
+}
+
+.player2 {
+    width: 50%;
+    background-color: rgb(199, 156, 156);
+}
+
+.player-active {
+    background-color: rgb(236, 178, 178);
+
+}
+
+.player0 {
+    background-color: black;
+}
+
+.content2 {
+    text-transform: capitalize;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.curent2 {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2 h3 {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+#score2 {
+    font-size: 2.5rem;
+    color: rgb(230, 22, 119);
+}
+
+.inner2 {
+    height: 50%;
+    width: 50%;
+    border-radius: 6px;
+    background-color: rgb(207, 9, 68);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2rem;
+    text-transform: capitalize;
+}
+
+.inner2 p {
+    margin-bottom: 1.5rem;
+    color: white;
+
+}
+
+#current-score2 {
+
+    font-size: 1.5rem;
+    color: white;
+}
+
+.new-game {
+    position: absolute;
+
+    left: 44%;
+    top: 5%;
+}
+
+.new-game button {
+
+    border-radius: 15px;
+    color: gray;
+    background-color: white;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    border: none;
+
+
+}
+
+.roll {
+    position: absolute;
+    left: 44%;
+    bottom: 30%;
+}
+
+.roll button {
+    border-radius: 15px;
+    color: gray;
+    background-color: white;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    border: none;
+    text-transform: capitalize;
+}
+
+.hold {
+    position: absolute;
+    left: 46%;
+    bottom: 20%;
+}
+
+.hold button {
+    border-radius: 15px;
+    color: gray;
+    background-color: white;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    border: none;
+    text-transform: capitalize;
+}
+
+.dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    top: 37%;
+    left: 47%;
+}
+
+
+
+
+
+
+.hidden {
+    display: none;
+}
+
+@media(min-width:592px) and (max-width:1174px) {
+    .first {
+        width: 90%;
+    }
+}
+
+@media(min-width:556px) and (max-width:592px) {
+    .first {
+        width: 100%;
+    }
+
+}
+
+
+@media(min-width:403px) and (max-width:555px) {
+    .first {
+        width: 100%;
+    }
+
+    .new-game button {
+        font-size: 0.75rem;
+        position: relative;
+        right: 15%;
+    }
+
+    .roll button {
+        font-size: 0.75rem;
+        position: relative;
+        right: 15%;
+
+    }
+
+    .hold button {
+        font-size: 0.75rem;
+        position: relative;
+        right: 15%;
+    }
+
+
+}
+
+@media(min-width:360px) and (max-width:402px) {
+    .first {
+        width: 100%;
+    }
+
+    .new-game button {
+        font-size: 0.75rem;
+        position: relative;
+        right: 30%;
+        bottom: 35%;
+    }
+
+    .roll button {
+        font-size: 0.75rem;
+        position: relative;
+        right: 24%;
+
+    }
+
+    .hold button {
+        font-size: 0.75rem;
+        position: relative;
+        right: 20%;
+    }
+
+}
